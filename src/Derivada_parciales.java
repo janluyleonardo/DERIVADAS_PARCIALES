@@ -259,6 +259,7 @@ public class Derivada_parciales extends javax.swing.JFrame {
         TXT_Numero2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         TXT_Numero2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         TXT_Numero2.setNextFocusableComponent(TXT_ExpoVariable4);
+        TXT_Numero2.setOpaque(false);
         JP_Ecuacion.add(TXT_Numero2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 100, 30, 40));
 
         LB_Variable3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -280,6 +281,7 @@ public class Derivada_parciales extends javax.swing.JFrame {
         TXT_ExpoVariable4.setBackground(new java.awt.Color(204, 204, 255));
         TXT_ExpoVariable4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         TXT_ExpoVariable4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        TXT_ExpoVariable4.setNextFocusableComponent(BTN_Paso1);
         JP_Ecuacion.add(TXT_ExpoVariable4, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 90, 20, -1));
 
         TXT_RVariable3.setEditable(false);
